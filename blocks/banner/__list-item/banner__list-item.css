@@ -1,0 +1,20 @@
+.banner__list-item {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 0 0 43px;
+  margin: 0;
+  color: #ede8e8;
+  float: left;
+  width: calc(50% - 43px);
+}
+
+.banner__list-item::before {
+  content: "\2022";
+  color: #ffd747;
+  font-weight: bold;
+  font-size: 55px;
+  margin-left: -45px;
+  margin-right: 18px;
+  vertical-align: middle;
+}

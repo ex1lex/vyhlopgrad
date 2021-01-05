@@ -1,0 +1,16 @@
+.header__link {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.header__link:last-of-type {
+  margin: 0;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.menu__link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.menu__link:hover {
+  color: #ffd747;
+}

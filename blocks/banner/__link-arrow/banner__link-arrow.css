@@ -1,0 +1,11 @@
+.banner__link-arrow {
+  display: flex;
+  padding: 14px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 48px;
+  height: 47px;
+  box-sizing: border-box;
+}

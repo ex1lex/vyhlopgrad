@@ -1,0 +1,13 @@
+.banner__link-title {
+  width: 100%;
+  padding: 16px 20px 13px 69px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  color: #ffffff;
+}

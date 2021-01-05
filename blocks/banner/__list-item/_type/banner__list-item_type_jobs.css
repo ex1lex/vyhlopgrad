@@ -1,0 +1,18 @@
+.banner__list-item_type_jobs {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  line-height: normal;
+  margin: 0 0 152px 0;
+}
+
+.banner__list-item_type_jobs:last-of-type {
+  margin: 0;
+}
+
+.banner__list-item_type_jobs:before {
+  content: "";
+  margin: 0;
+}

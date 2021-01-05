@@ -1,0 +1,30 @@
+.banner__link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(28, 28, 28, 0.85);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    black 50%,
+    black
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.2s ease-in;
+}
+
+.banner__link:hover {
+  background-position: 0 0;
+}

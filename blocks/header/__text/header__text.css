@@ -1,0 +1,4 @@
+.header__text {
+  transform: scale(0);
+  transition: all 1s ease-in 2s;
+}

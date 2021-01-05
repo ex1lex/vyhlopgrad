@@ -10,51 +10,18 @@
       <div class="header__top-line">
         <img src="./images/logo.svg" alt="логотип" class="header__logo" />
         <nav>
-          <div class="menu-btn-close">
-            <a href="#" onclick="menu_toggle_click()">
-              <i class="fa fa-times"></i>
-              <span></span>
-            </a>
-          </div>
-          <ul id="horizontal-multilevel-menu" class="menu">
-            <li class="sub-menu hide">
-              <span><i class="fa fa-angle-down" aria-hidden="true"></i></span
-              ><a href="/" class="root-item-selected animated-btn1">Ремонт</a>
-              <ul>
-                <li>
-                  <a href="/remont/polnaya-zamena-vykhlopnoy-sistemy.php"
-                    >Полная замена выхлопной системы</a
-                  >
-                </li>
-
-                <li>
-                  <a href="/remont/remont-rezonatora.php">Ремонт резонатора</a>
-                </li>
-
-                <li>
-                  <a href="/remont/remont-osnovnogo-glushitelya.php"
-                    >Ремонт основного глушителя</a
-                  >
-                </li>
-
-                <li>
-                  <a href="/remont/remont-katalizatora.php"
-                    >Ремонт и замена катализатора</a
-                  >
-                </li>
-
-                <li><a href="/remont/zamena-gofry.php">Замена гофры</a></li>
-              </ul>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="/" class="menu__link">Ремонт</a>
             </li>
-
-            <li>
-              <a href="/tyuning/" class="root-item animated-btn1">Тюнинг</a>
+            <li class="menu__item">
+              <a href="/" class="menu__link">Тюнинг</a>
             </li>
-
-            <li><a href="/moto/" class="root-item animated-btn1">Мото</a></li>
-
-            <li>
-              <a href="/kontakty/" class="root-item animated-btn1">Контакты</a>
+            <li class="menu__item">
+              <a href="/" class="menu__link">Мото</a>
+            </li>
+            <li class="menu__item">
+              <a href="/" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -581,5 +548,6 @@
         </div>
       </div>
     </section>
+    <script src="scripts.js"></script>
   </body>
 </html>

@@ -1,4 +1,11 @@
 const header = document.querySelector(".header__top-line");
+const logo = document.querySelector(".header__logo_type_vertical");
+const text = document.querySelector(".header__text");
+
+logo.classList.add("header__logo_show");
+
+text.classList.add("header__text_show");
+
 window.addEventListener("scroll", () => {
   if (pageYOffset >= 800) {
     header.classList.add("header__top-line_show");

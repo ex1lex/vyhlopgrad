@@ -82,6 +82,21 @@
   width: 228px;
   height: 157px;
   margin-bottom: 7px;
+  transform: scale(0);
+  transition: all 1s ease-in 1s;
+}
+
+.header__logo_show {
+  transform: scale(1);
+}
+
+.header__text {
+  transform: scale(0);
+  transition: all 1s ease-in 2s;
+}
+
+.header__text_show {
+  transform: scale(1);
 }
 
 .header__title {

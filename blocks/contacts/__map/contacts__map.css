@@ -11,3 +11,20 @@
     margin-bottom: 52px;
   }
 }
+
+@media (max-width: 768px) {
+  .contacts__map {
+    width: 100%;
+    max-width: 416px;
+    height: 238px;
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts__map {
+    width: 314px;
+    height: 180px;
+    margin-bottom: 39px;
+  }
+}

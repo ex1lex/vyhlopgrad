@@ -6,10 +6,37 @@
 
 .contacts__item:last-of-type {
   padding-top: 35px;
+  margin-bottom: -6px;
 }
 
 @media (max-width: 1024px) {
   .contacts__item:last-of-type {
     padding-top: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__item:last-of-type {
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts__item {
+    align-items: center;
+  }
+  .contacts__item:last-of-type {
+    padding-top: 40px;
+    margin-bottom: 0;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .contacts__item:last-of-type .contacts__item-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }

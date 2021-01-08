@@ -12,3 +12,17 @@
     height: 118px;
   }
 }
+
+@media (max-width: 768px) {
+  .header__logo_type_vertical {
+    width: 127px;
+    height: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__logo_type_vertical {
+    width: 182px;
+    height: 126px;
+  }
+}

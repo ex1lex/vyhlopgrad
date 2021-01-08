@@ -8,3 +8,25 @@
   grid-template-columns: 2fr 1fr 1fr;
   gap: 33px;
 }
+
+@media (max-width: 1024px) {
+  .header__contacts {
+    padding: 0 64px 0 81px;
+    gap: 45px;
+    bottom: 31px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__contacts {
+    padding: 0 47px 0 60px;
+    gap: 40px;
+    bottom: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__contacts {
+    display: none;
+  }
+}

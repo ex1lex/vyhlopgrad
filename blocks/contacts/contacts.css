@@ -8,3 +8,15 @@
     padding: 66px 45px 70px 113px;
   }
 }
+
+@media (max-width: 768px) {
+  .contacts {
+    padding: 49px 40px 54px 87px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts {
+    padding: 22px 55px 41px;
+  }
+}

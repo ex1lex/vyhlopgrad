@@ -19,3 +19,15 @@
     padding: 90px 81px 30px;
   }
 }
+
+@media (max-width: 768px) {
+  .header__content {
+    padding: 75px 47px 24px 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__content {
+    padding: 42px 50px 54px 50px;
+  }
+}

@@ -10,3 +10,16 @@
     gap: 54px;
   }
 }
+
+@media (max-width: 768px) {
+  .contacts__container {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contacts__container {
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+}

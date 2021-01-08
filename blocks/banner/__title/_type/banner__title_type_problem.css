@@ -5,3 +5,11 @@
   margin-bottom: 40px;
   color: #ede8e8;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_problem {
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 69px;
+  }
+}

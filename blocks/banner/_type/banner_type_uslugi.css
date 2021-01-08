@@ -2,3 +2,9 @@
   background: #1c1c1b;
   padding: 112px 141px 139px;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_uslugi {
+    padding: 90px 113px 113px;
+  }
+}

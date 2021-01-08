@@ -5,3 +5,11 @@
   line-height: 23px;
   color: #ffffff;
 }
+
+@media (max-width: 1024px) {
+  .contacts__time {
+    margin-top: 37px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

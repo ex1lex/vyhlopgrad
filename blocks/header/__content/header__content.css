@@ -13,3 +13,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .header__content {
+    padding: 90px 81px 30px;
+  }
+}

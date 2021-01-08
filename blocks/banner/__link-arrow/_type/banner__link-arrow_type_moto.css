@@ -2,3 +2,11 @@
   width: 68px;
   height: 67px;
 }
+
+@media (max-width: 1024px) {
+  .banner__link-arrow_type_moto {
+    padding: 12px 10px;
+    width: 54px;
+    height: 52px;
+  }
+}

@@ -5,3 +5,11 @@
   margin: 0 0 47px 0;
   color: #ffd747;
 }
+
+@media (max-width: 1024px) {
+  .contacts__title {
+    margin-bottom: 54px;
+    font-size: 55px;
+    line-height: 63px;
+  }
+}

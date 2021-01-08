@@ -2,3 +2,10 @@
   width: 744px;
   height: 520px;
 }
+
+@media (max-width: 1024px) {
+  .banner__video {
+    width: 595px;
+    height: 416px;
+  }
+}

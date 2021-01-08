@@ -2,3 +2,11 @@
   width: 881px;
   height: 499px;
 }
+
+@media (max-width: 1024px) {
+  .banner__item_type_moto {
+    width: 705px;
+    height: 400px;
+    max-height: 400px;
+  }
+}

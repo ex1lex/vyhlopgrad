@@ -5,3 +5,11 @@
   margin-bottom: 37px;
   color: #ffd747;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_moto {
+    margin-bottom: 24px;
+    font-size: 60px;
+    line-height: 55px;
+  }
+}

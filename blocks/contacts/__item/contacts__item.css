@@ -3,3 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.contacts__item:last-of-type {
+  padding-top: 35px;
+}
+
+@media (max-width: 1024px) {
+  .contacts__item:last-of-type {
+    padding-top: 35px;
+  }
+}

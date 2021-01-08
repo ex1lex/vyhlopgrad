@@ -1,3 +1,11 @@
 .banner__link-title_type_moto {
   padding: 26px 20px 25px 95px;
 }
+
+@media (max-width: 1024px) {
+  .banner__link-title_type_moto {
+    padding: 18px 76px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

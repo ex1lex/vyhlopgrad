@@ -5,3 +5,10 @@
   transform: scale(0);
   transition: all 1s ease-in;
 }
+
+@media (max-width: 1024px) {
+  .header__logo_type_vertical {
+    width: 171px;
+    height: 118px;
+  }
+}

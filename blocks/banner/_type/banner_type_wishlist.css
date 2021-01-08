@@ -2,3 +2,9 @@
   background: #222220;
   padding: 125px 54px 151px 142px;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_wishlist {
+    padding: 99px 45px 106px 114px;
+  }
+}

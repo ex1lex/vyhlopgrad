@@ -9,3 +9,11 @@
 .banner__title_type_video:last-of-type {
   margin-top: 25px;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_video {
+    margin-bottom: 24px;
+    font-size: 60px;
+    line-height: 69px;
+  }
+}

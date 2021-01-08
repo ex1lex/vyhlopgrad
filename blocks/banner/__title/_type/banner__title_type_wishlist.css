@@ -5,3 +5,11 @@
   line-height: 80px;
   color: #ede8e8;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_wishlist {
+    margin-bottom: 42px;
+    font-size: 60px;
+    line-height: 69px;
+  }
+}

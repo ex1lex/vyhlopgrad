@@ -10,3 +10,11 @@
 .banner__list-item_type_advantages:last-of-type {
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .banner__list-item_type_advantages {
+    margin-bottom: 32px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+}

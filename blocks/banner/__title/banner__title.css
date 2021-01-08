@@ -5,3 +5,10 @@
   margin: 0 0 22px 0;
   color: #212529;
 }
+
+@media (max-width: 1024px) {
+  .banner__title {
+    font-weight: 500;
+    font-size: 60px;
+  }
+}

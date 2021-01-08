@@ -2,3 +2,9 @@
   padding: 81px 94px 80px 141px;
   background: #222220;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_video {
+    padding: 65px 75px 74px 113px;
+  }
+}

@@ -10,3 +10,10 @@
 .contacts__link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .contacts__link {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}

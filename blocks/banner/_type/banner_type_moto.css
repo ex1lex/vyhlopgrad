@@ -2,3 +2,9 @@
   padding: 75px 257px 66px 142px;
   background: #1c1c1b;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_moto {
+    padding: 60px 205px 23px 114px;
+  }
+}

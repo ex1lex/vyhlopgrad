@@ -9,3 +9,11 @@
   height: 47px;
   box-sizing: border-box;
 }
+
+@media (max-width: 1024px) {
+  .banner__link-arrow {
+    padding: 10px;
+    width: 39px;
+    height: 40px;
+  }
+}

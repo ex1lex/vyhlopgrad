@@ -2,3 +2,9 @@
   background: #1c1c1b;
   padding: 80px 123px 79px 142px;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_advantages {
+    padding: 65px 88px 70px 112px;
+  }
+}

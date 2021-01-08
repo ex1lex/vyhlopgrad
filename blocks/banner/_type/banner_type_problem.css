@@ -2,3 +2,9 @@
   background: #222220;
   padding: 75px 141px;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_problem {
+    padding: 64px 60px 64px 112px;
+  }
+}

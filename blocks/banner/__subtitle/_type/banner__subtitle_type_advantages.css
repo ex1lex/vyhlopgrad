@@ -5,3 +5,11 @@
   margin-bottom: 89px;
   color: #ede8e8;
 }
+
+@media (max-width: 1024px) {
+  .banner__subtitle_type_advantages {
+    margin-bottom: 70px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+}

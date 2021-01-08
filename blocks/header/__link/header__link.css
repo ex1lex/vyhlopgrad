@@ -14,3 +14,10 @@
 .header__link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .header__link {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

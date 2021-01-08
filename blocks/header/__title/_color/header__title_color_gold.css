@@ -5,3 +5,10 @@
   color: #ffd747;
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .header__title_color_gold {
+    font-size: 54px;
+    line-height: 33px;
+  }
+}

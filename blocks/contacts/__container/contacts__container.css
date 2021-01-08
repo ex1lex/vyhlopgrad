@@ -1,6 +1,12 @@
 .contacts__container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 0.7fr;
   grid-auto-columns: 1fr;
   gap: 98px;
+}
+
+@media (max-width: 1024px) {
+  .contacts__container {
+    gap: 54px;
+  }
 }

@@ -3,3 +3,11 @@
   height: 398px;
   margin-bottom: 72px;
 }
+
+@media (max-width: 1024px) {
+  .contacts__map {
+    width: 556px;
+    height: 318px;
+    margin-bottom: 52px;
+  }
+}

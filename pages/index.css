@@ -1,6 +1,5 @@
 @import url(../vendor/font.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/gold-text/gold-text.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__top-line/header__top-line.css);
 @import url(../blocks/header/__top-line/_show/header__top-line_show.css);
@@ -28,6 +27,7 @@
 @import url(../blocks/banner/_type/banner_type_video.css);
 @import url(../blocks/banner/_type/banner_type_wishlist.css);
 @import url(../blocks/banner/__video/banner__video.css);
+@import url(../blocks/banner/__gold-text/banner__gold-text.css);
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__title/_type/banner__title_type_advantages.css);
 @import url(../blocks/banner/__title/_type/banner__title_type_jobs.css);

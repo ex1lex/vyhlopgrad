@@ -5,3 +5,11 @@
   color: #ede8e8;
   margin-bottom: 32px;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_uslugi {
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 25px;
+  }
+}

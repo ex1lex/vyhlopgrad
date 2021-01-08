@@ -6,3 +6,10 @@
   text-align: center;
   color: #ffffff;
 }
+
+@media (max-width: 1024px) {
+  .header__subtitle {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

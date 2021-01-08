@@ -2,3 +2,9 @@
   background: #ffd747;
   padding: 175px 141px 189px;
 }
+
+@media (max-width: 1024px) {
+  .banner {
+    padding: 145px 113px;
+  }
+}

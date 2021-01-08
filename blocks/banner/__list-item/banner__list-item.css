@@ -16,5 +16,19 @@
   font-size: 55px;
   margin-left: -45px;
   margin-right: 18px;
-  vertical-align: middle;
+  vertical-align: bottom;
+}
+
+@media (max-width: 1024px) {
+  .banner__list-item {
+    font-size: 20px;
+    line-height: 80px;
+    width: calc(50% - 43px - 32px);
+    padding-right: 32px;
+  }
+
+  .banner__list-item::before {
+    font-size: 50px;
+    margin-right: 21px;
+  }
 }

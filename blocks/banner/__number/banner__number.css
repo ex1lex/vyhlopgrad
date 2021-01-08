@@ -5,3 +5,11 @@
   line-height: 43px;
   color: #ffd747;
 }
+
+@media (max-width: 1024px) {
+  .banner__number {
+    font-size: 120px;
+    line-height: 43px;
+    margin: 25px 23px 0 0;
+  }
+}

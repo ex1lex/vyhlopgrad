@@ -6,3 +6,12 @@
   color: #ede8e8;
   margin-bottom: 149px;
 }
+
+@media (max-width: 1024px) {
+  .banner__title_type_jobs {
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 119px;
+    padding-left: 62px;
+  }
+}

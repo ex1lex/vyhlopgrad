@@ -2,3 +2,9 @@
   padding: 161px 195px 180px 64px;
   background: #1c1c1b;
 }
+
+@media (max-width: 1024px) {
+  .banner_type_jobs {
+    padding: 129px 155px 232px 52px;
+  }
+}

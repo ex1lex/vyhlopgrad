@@ -4,4 +4,14 @@
   line-height: 43px;
   margin: 0 0 39px 0;
   color: #ede8e8;
+  max-width: 615px;
+}
+
+@media (max-width: 1024px) {
+  .banner__item-about {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 40px;
+    max-width: 597px;
+  }
 }

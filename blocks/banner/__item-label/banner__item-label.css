@@ -5,3 +5,12 @@
   line-height: 43px;
   color: #ede8e8;
 }
+
+@media (max-width: 1024px) {
+  .banner__item-label {
+    margin-bottom: 23px;
+    font-size: 37px;
+    line-height: 43px;
+    max-width: 518px;
+  }
+}

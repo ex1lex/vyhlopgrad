@@ -6,3 +6,11 @@
   color: #ede8e8;
   max-width: 921px;
 }
+
+@media (max-width: 1024px) {
+  .banner__subtitle_type_moto {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+}

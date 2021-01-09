@@ -13,3 +13,20 @@
     line-height: 43px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__title_type_advantages {
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 43px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__title_type_advantages {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 273px;
+  }
+}

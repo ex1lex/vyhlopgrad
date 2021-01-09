@@ -17,3 +17,19 @@
     height: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-arrow {
+    padding: 8px;
+    width: 29px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-arrow {
+    padding: 14px;
+    width: 53px;
+    height: 52px;
+  }
+}

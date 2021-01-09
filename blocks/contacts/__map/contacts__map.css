@@ -6,25 +6,25 @@
 
 @media (max-width: 1024px) {
   .contacts__map {
-    width: 556px;
-    height: 318px;
+    width: 100%;
+    max-width: 556px;
+    max-height: 318px;
     margin-bottom: 52px;
   }
 }
 
 @media (max-width: 768px) {
   .contacts__map {
-    width: 100%;
     max-width: 416px;
-    height: 238px;
+    max-height: 238px;
     margin-bottom: 44px;
   }
 }
 
 @media (max-width: 425px) {
   .contacts__map {
-    width: 314px;
-    height: 180px;
+    max-width: 314px;
+    max-height: 180px;
     margin-bottom: 39px;
   }
 }

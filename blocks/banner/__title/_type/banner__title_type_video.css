@@ -17,3 +17,20 @@
     line-height: 69px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__title_type_video {
+    margin-bottom: 22px;
+    font-size: 48px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__title_type_video {
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+  }
+}

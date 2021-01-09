@@ -5,7 +5,22 @@
 
 @media (max-width: 1024px) {
   .banner__video {
-    width: 595px;
-    height: 416px;
+    width: 100%;
+    max-width: 595px;
+    max-height: 416px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__video {
+    max-width: 445px;
+    max-height: 311px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__video {
+    max-width: 312px;
+    max-height: 218px;
   }
 }

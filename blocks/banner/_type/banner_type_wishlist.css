@@ -8,3 +8,15 @@
     padding: 99px 45px 106px 114px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner_type_wishlist {
+    padding: 71px 32px 85px 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner_type_wishlist {
+    padding: 48px 20px 69px 44px;
+  }
+}

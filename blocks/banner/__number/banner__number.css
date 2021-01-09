@@ -13,3 +13,17 @@
     margin: 25px 23px 0 0;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__number {
+    font-size: 80px;
+    line-height: 43px;
+    margin: 17px 23px 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__number {
+    display: none;
+  }
+}

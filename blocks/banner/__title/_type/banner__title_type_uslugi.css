@@ -13,3 +13,21 @@
     margin-bottom: 25px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__title_type_uslugi {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 19px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__title_type_uslugi {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    color: #ffd747;
+    margin-bottom: 13px;
+  }
+}

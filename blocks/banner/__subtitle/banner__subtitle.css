@@ -12,3 +12,17 @@
     line-height: 28px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

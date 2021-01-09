@@ -22,3 +22,15 @@
     margin-bottom: 107px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__list-item_type_jobs {
+    margin-bottom: 72px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__list-item_type_jobs {
+    margin-bottom: 40px;
+  }
+}

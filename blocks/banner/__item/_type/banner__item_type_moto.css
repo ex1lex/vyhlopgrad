@@ -5,8 +5,22 @@
 
 @media (max-width: 1024px) {
   .banner__item_type_moto {
-    width: 705px;
-    height: 400px;
+    width: 100%;
+    max-width: 705px;
     max-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__item_type_moto {
+    max-width: 527px;
+    max-height: 298px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__item_type_moto {
+    max-width: 353px;
+    max-height: 349px;
   }
 }

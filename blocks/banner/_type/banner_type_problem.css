@@ -8,3 +8,15 @@
     padding: 64px 60px 64px 112px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner_type_problem {
+    padding: 54px 50px 52px 84px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner_type_problem {
+    padding: 36px 33px 47px 44px;
+  }
+}

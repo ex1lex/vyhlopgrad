@@ -18,3 +18,20 @@
     line-height: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__list-item_type_advantages {
+    font-size: 20px;
+    line-height: 32px;
+    width: calc(100% - 40px);
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__list-item_type_advantages {
+    margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 32px;
+    width: calc(100% - 60px);
+  }
+}

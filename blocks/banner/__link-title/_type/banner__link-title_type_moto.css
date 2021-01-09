@@ -9,3 +9,20 @@
     line-height: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-title_type_moto {
+    padding: 11px 58px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-title_type_moto {
+    padding: 17px 76px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

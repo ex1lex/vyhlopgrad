@@ -8,3 +8,15 @@
     padding: 145px 113px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 108px 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner {
+    padding: 34px 44px;
+  }
+}

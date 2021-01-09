@@ -18,3 +18,25 @@
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__subtitle_type_video {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 37px;
+    max-width: 654px;
+  }
+
+  .banner__subtitle_type_video:last-of-type {
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__subtitle_type_video {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 22px;
+    max-width: 346px;
+  }
+}

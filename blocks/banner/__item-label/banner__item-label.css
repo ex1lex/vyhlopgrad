@@ -14,3 +14,22 @@
     max-width: 518px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__item-label {
+    margin-bottom: 18px;
+    font-size: 27px;
+    line-height: 43px;
+    max-width: 577px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__item-label {
+    margin-bottom: 18px;
+    font-size: 27px;
+    line-height: 43px;
+    color: #ffd747;
+    max-width: 345px;
+  }
+}

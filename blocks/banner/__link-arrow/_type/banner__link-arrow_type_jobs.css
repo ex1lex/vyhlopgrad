@@ -10,3 +10,19 @@
     padding: 16px 13px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-arrow_type_jobs {
+    width: 41px;
+    height: 40px;
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-arrow_type_jobs {
+    width: 53px;
+    height: 51px;
+    padding: 14px 15px;
+  }
+}

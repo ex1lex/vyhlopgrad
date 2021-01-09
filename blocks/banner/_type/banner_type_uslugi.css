@@ -8,3 +8,15 @@
     padding: 90px 113px 113px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner_type_uslugi {
+    padding: 57px 72px 65px 84px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner_type_uslugi {
+    padding: 33px 35px 62px;
+  }
+}

@@ -13,3 +13,15 @@
     max-height: 285px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__item {
+    max-height: 213px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__item {
+    max-height: 317px;
+  }
+}

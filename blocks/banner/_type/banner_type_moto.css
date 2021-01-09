@@ -8,3 +8,15 @@
     padding: 60px 205px 23px 114px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner_type_moto {
+    padding: 45px 115px 40px 84px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner_type_moto {
+    padding: 32px 36px 26px 36px;
+  }
+}

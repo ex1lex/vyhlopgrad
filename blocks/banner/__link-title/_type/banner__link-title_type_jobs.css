@@ -9,3 +9,19 @@
     line-height: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-title_type_jobs {
+    padding: 11px 57px 10px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-title_type_jobs {
+    padding: 17px 75px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

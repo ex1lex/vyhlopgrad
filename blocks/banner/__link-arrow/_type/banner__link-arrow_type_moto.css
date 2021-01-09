@@ -10,3 +10,19 @@
     height: 52px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-arrow_type_moto {
+    padding: 9px 8px;
+    width: 40px;
+    height: 39px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-arrow_type_moto {
+    padding: 14px 15px;
+    width: 53px;
+    height: 51px;
+  }
+}

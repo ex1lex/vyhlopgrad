@@ -12,3 +12,16 @@
     gap: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__gallery {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__gallery {
+    gap: 52px;
+    grid-template-columns: 1fr;
+  }
+}

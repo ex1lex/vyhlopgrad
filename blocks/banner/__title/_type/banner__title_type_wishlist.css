@@ -13,3 +13,18 @@
     line-height: 69px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__title_type_wishlist {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__title_type_wishlist {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}

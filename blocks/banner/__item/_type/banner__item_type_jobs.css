@@ -6,8 +6,22 @@
 
 @media (max-width: 1024px) {
   .banner__item_type_jobs {
-    width: 713px;
-    height: 407px;
+    width: 100%;
+    max-width: 713px;
     max-height: 407px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner__item_type_jobs {
+    max-width: 533px;
+    max-height: 304px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__item_type_jobs {
+    max-width: 352px;
+    max-height: 341px;
   }
 }

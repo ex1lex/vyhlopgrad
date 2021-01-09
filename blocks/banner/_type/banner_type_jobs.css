@@ -8,3 +8,15 @@
     padding: 129px 155px 232px 52px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner_type_jobs {
+    padding: 96px 81px 88px 53px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner_type_jobs {
+    padding: 22px 36px 40px;
+  }
+}

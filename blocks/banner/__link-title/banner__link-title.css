@@ -17,3 +17,17 @@
     padding: 12px 20px 10px 56px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner__link-title {
+    padding: 7px 41px 6px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner__link-title {
+    padding: 16px 75px 14px;
+  }
+}

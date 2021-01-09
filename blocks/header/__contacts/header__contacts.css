@@ -22,6 +22,7 @@
     padding: 0 47px 0 60px;
     gap: 40px;
     bottom: 24px;
+    grid-template-columns: 1.5fr 1fr 1fr;
   }
 }
 

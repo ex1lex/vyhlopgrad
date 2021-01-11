@@ -1,3 +1,7 @@
 .menu__btn-close {
   display: none;
 }
+
+.menu__btn-close:hover {
+  color: #ffd747;
+}

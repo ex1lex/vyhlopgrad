@@ -56,11 +56,11 @@
             &#128940;
             <i class="fa fa-times"></i>
           </button>
+          <button type="button" class="menu__btn-open">
+            &#9776;
+            <i class="fa fa-bars"></i>
+          </button>
         </nav>
-        <button type="button" class="menu__btn-open">
-          &#9776;
-          <i class="fa fa-bars"></i>
-        </button>
       </div>
       <div class="header__content">
         <img
@@ -69,10 +69,12 @@
           class="header__logo header__logo_type_vertical"
         />
         <div class="header__text">
-          <h1 class="header__title header__title_color_gold">
-            Ремонт и тюнинг
+          <h1 class="header__title">
+            <span class="header__title header__title_color_gold">
+              Ремонт и тюнинг </span
+            ><br />
+            выхлопных систем
           </h1>
-          <h1 class="header__title">выхлопных систем</h1>
           <p class="header__subtitle">
             За качество отвечаем гарантией от 1 до 2 лет на запчасти и работы
           </p>
@@ -117,475 +119,499 @@
       </div>
     </header>
     <section class="banner">
-      <h3 class="banner__title">От Копейки до Bentley</h3>
-      <p class="banner__subtitle">
-        Ваш авто будет петь, рычать, урчать и врум-врумчать.
-        <br /><br />
-        Работаем с легковыми и грузовыми автомобилями,<br />мотоциклами и
-        спецтехникой.
-      </p>
+      <div class="banner__content">
+        <h3 class="banner__title">От Копейки до Bentley</h3>
+        <p class="banner__subtitle">
+          Ваш авто будет петь, рычать, урчать и врум-врумчать.
+          <br /><br />
+          Работаем с легковыми и грузовыми автомобилями,<br />мотоциклами и
+          спецтехникой.
+        </p>
+      </div>
     </section>
     <section class="banner banner_type_uslugi">
-      <h3 class="banner__title banner__title_type_uslugi">Наши услуги:</h3>
-      <p class="banner__subtitle banner__subtitle_type_uslugi">
-        Ремонт выхлопной системы полностью или отдельных ее элементов.
-      </p>
-      <ul class="banner__gallery">
-        <li class="banner__item">
-          <img src="./images/uslugi1.jpg" class="banner__img" alt="услуги" />
-          <a href="/" class="banner__link">
-            <div class="banner__link-arrow">
-              <img
-                class="banner__link-arrow-img"
-                alt="стрелка"
-                src="./images/arrow.svg"
-              />
-            </div>
-            <div>
-              <p class="banner__link-title">Ремонт</p>
-            </div>
-          </a>
-        </li>
-        <li class="banner__item">
-          <img src="./images/uslugi2.png" class="banner__img" alt="услуги" />
-          <a href="/" class="banner__link">
-            <div class="banner__link-arrow">
-              <img
-                class="banner__link-arrow-img"
-                alt="стрелка"
-                src="./images/arrow.svg"
-              />
-            </div>
-            <div>
-              <p class="banner__link-title">Тюнинг</p>
-            </div>
-          </a>
-        </li>
-        <li class="banner__item">
-          <img src="./images/uslugi3.jpg" class="banner__img" alt="услуги" />
-          <a href="/" class="banner__link">
-            <div class="banner__link-arrow">
-              <img
-                class="banner__link-arrow-img"
-                alt="стрелка"
-                src="./images/arrow.svg"
-              />
-            </div>
-            <div>
-              <p class="banner__link-title">Мото</p>
-            </div>
-          </a>
-        </li>
-      </ul>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_uslugi">Наши услуги:</h3>
+        <p class="banner__subtitle banner__subtitle_type_uslugi">
+          Ремонт выхлопной системы полностью или отдельных ее элементов.
+        </p>
+        <ul class="banner__gallery">
+          <li class="banner__item">
+            <img src="./images/uslugi1.jpg" class="banner__img" alt="услуги" />
+            <a href="/" class="banner__link">
+              <div class="banner__link-arrow">
+                <img
+                  class="banner__link-arrow-img"
+                  alt="стрелка"
+                  src="./images/arrow.svg"
+                />
+              </div>
+              <div>
+                <p class="banner__link-title">Ремонт</p>
+              </div>
+            </a>
+          </li>
+          <li class="banner__item">
+            <img src="./images/uslugi2.png" class="banner__img" alt="услуги" />
+            <a href="/" class="banner__link">
+              <div class="banner__link-arrow">
+                <img
+                  class="banner__link-arrow-img"
+                  alt="стрелка"
+                  src="./images/arrow.svg"
+                />
+              </div>
+              <div>
+                <p class="banner__link-title">Тюнинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="banner__item">
+            <img src="./images/uslugi3.jpg" class="banner__img" alt="услуги" />
+            <a href="/" class="banner__link">
+              <div class="banner__link-arrow">
+                <img
+                  class="banner__link-arrow-img"
+                  alt="стрелка"
+                  src="./images/arrow.svg"
+                />
+              </div>
+              <div>
+                <p class="banner__link-title">Мото</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="banner banner_type_problem">
-      <h3 class="banner__title banner__title_type_problem">
-        Какие проблемы решаем:
-      </h3>
-      <p class="banner__subtitle banner__subtitle_type_problem">
-        Решение подбирается индивидуально для конкретного<br />случая после
-        бесплатной диагностики.
-      </p>
-      <ul class="banner__list">
-        <li class="banner__list-item">Снимаем звон;</li>
-        <li class="banner__list-item">Убираем запах топлива в салоне;</li>
-        <li class="banner__list-item">Снижаем громкость выхлопа;</li>
-        <li class="banner__list-item">Убираем неприятный гул;</li>
-        <li class="banner__list-item">Уменьшаем токсичность выхлопа.</li>
-      </ul>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_problem">
+          Какие проблемы решаем:
+        </h3>
+        <p class="banner__subtitle banner__subtitle_type_problem">
+          Решение подбирается индивидуально для конкретного<br />случая после
+          бесплатной диагностики.
+        </p>
+        <ul class="banner__list">
+          <li class="banner__list-item">Снимаем звон;</li>
+          <li class="banner__list-item">Убираем запах топлива в салоне;</li>
+          <li class="banner__list-item">Снижаем громкость выхлопа;</li>
+          <li class="banner__list-item">Убираем неприятный гул;</li>
+          <li class="banner__list-item">Уменьшаем токсичность выхлопа.</li>
+        </ul>
+      </div>
     </section>
     <section class="banner banner_type_jobs">
-      <h3 class="banner__title banner__title_type_jobs">
-        <span class="banner__title_color_gold">Наиболее часто</span> требующиеся
-        виды работ:
-      </h3>
-      <ul class="banner__list banner__list_type_jobs">
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">1</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">Замена гофры</h4>
-            <p class="banner__item-about">
-              Производится при повышенном гуле, вибрации, появлении запахе
-              топлива в салоне.
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota1.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Замена гофры
-                  </p>
-                </div>
-              </a>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_jobs">
+          <span class="banner__title_color_gold">Наиболее часто</span>
+          требующиеся виды работ:
+        </h3>
+        <ul class="banner__list banner__list_type_jobs">
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">1</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">Замена гофры</h4>
+              <p class="banner__item-about">
+                Производится при повышенном гуле, вибрации, появлении запахе
+                топлива в салоне.
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota1.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Замена гофры
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">2</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">Замена катализатора</h4>
-            <p class="banner__item-about">
-              Производится при превышении норм по выпускаемым газам.
-              <br /><br />
-              Ремонт катализатора хотя и возможен, но не является долговечным,
-              поэтому мы рекомендуем замену катализатора на оригинальный или
-              универсальный, при желании владельца — на пламегаситель, даунпайп
-              или паука.
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota2.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Замена катализатора
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">2</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">Замена катализатора</h4>
+              <p class="banner__item-about">
+                Производится при превышении норм по выпускаемым газам.
+                <br /><br />
+                Ремонт катализатора хотя и возможен, но не является долговечным,
+                поэтому мы рекомендуем замену катализатора на оригинальный или
+                универсальный, при желании владельца — на пламегаситель,
+                даунпайп или паука.
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota2.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Замена катализатора
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">3</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">
-              Замена сажевого фильтра на дизельных автомобилях
-            </h4>
-            <p class="banner__item-about"></p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota3.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Замена сажевого фильтра на дизельных автомобилях
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">3</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">
+                Замена сажевого фильтра на дизельных автомобилях
+              </h4>
+              <p class="banner__item-about"></p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota3.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Замена сажевого фильтра на дизельных автомобилях
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">4</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">
-              Ремонт основного глушителя (задней банки)
-            </h4>
-            <p class="banner__item-about">
-              Производится при его прогорании.<br />Можно также заменить заднюю
-              банку на стоковый<br />или прямоточный глушитель из нержавейки.
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota4.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Ремонт основного глушителя (задней банки)
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">4</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">
+                Ремонт основного глушителя (задней банки)
+              </h4>
+              <p class="banner__item-about">
+                Производится при его прогорании.<br />Можно также заменить
+                заднюю банку на стоковый<br />или прямоточный глушитель из
+                нержавейки.
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota4.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Ремонт основного глушителя (задней банки)
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">5</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">Ремонт резонатора</h4>
-            <p class="banner__item-about">
-              Производится при изменении звука выхлопа на неприятный, звенящий
-              или дребезжащий.
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota5.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Ремонт резонатора
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">5</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">Ремонт резонатора</h4>
+              <p class="banner__item-about">
+                Производится при изменении звука выхлопа на неприятный, звенящий
+                или дребезжащий.
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota5.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Ремонт резонатора
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">6</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">Замена выхлопной системы</h4>
-            <p class="banner__item-about">
-              Производится либо на очень страх автомобилях,<br />либо для
-              улучшения ходовых характеристик авто<br />и изменения звука
-              выхлопа.
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota6.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Замена выхлопной системы
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">6</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">Замена выхлопной системы</h4>
+              <p class="banner__item-about">
+                Производится либо на очень страх автомобилях,<br />либо для
+                улучшения ходовых характеристик авто<br />и изменения звука
+                выхлопа.
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota6.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Замена выхлопной системы
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="banner__list-item banner__list-item_type_jobs">
-          <p class="banner__number">7</p>
-          <div class="banner__content">
-            <h4 class="banner__item-label">Тюнинг выхлопных систем</h4>
-            <p class="banner__item-about">
-              Почти 20 лет мы реализуем любые задумки наших клиентов, даже самые
-              смелые и дерзкие (как выхлоп для вездехода Bentley).
-            </p>
-            <div class="banner__item banner__item_type_jobs">
-              <img
-                src="./images/rabota7.png"
-                class="banner__img"
-                alt="услуги"
-              />
-              <a href="/" class="banner__link">
-                <div class="banner__link-arrow banner__link-arrow_type_jobs">
-                  <img
-                    class="banner__link-arrow-img"
-                    alt="стрелка"
-                    src="./images/arrow.svg"
-                  />
-                </div>
-                <div>
-                  <p class="banner__link-title banner__link-title_type_jobs">
-                    Тюнинг выхлопных систем
-                  </p>
-                </div>
-              </a>
+          </li>
+          <li class="banner__list-item banner__list-item_type_jobs">
+            <p class="banner__number">7</p>
+            <div class="banner__content">
+              <h4 class="banner__item-label">Тюнинг выхлопных систем</h4>
+              <p class="banner__item-about">
+                Почти 20 лет мы реализуем любые задумки наших клиентов, даже
+                самые смелые и дерзкие (как выхлоп для вездехода Bentley).
+              </p>
+              <div class="banner__item banner__item_type_jobs">
+                <img
+                  src="./images/rabota7.png"
+                  class="banner__img"
+                  alt="услуги"
+                />
+                <a href="/" class="banner__link">
+                  <div class="banner__link-arrow banner__link-arrow_type_jobs">
+                    <img
+                      class="banner__link-arrow-img"
+                      alt="стрелка"
+                      src="./images/arrow.svg"
+                    />
+                  </div>
+                  <div>
+                    <p class="banner__link-title banner__link-title_type_jobs">
+                      Тюнинг выхлопных систем
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="banner banner_type_wishlist">
-      <h3 class="banner__title banner__title_type_wishlist">
-        Вам к нам, если вы хотите:
-      </h3>
-      <ul class="banner__list">
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Крутые насадки на глушитель;
-        </li>
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Управляемый выхлоп;
-        </li>
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Развести выхлоп;
-        </li>
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Получить потрясные классные трубы
-          <br />
-          (H, X, Y, даунпайп, паук);
-        </li>
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Вывести выхлоп наверх или под пороги;
-        </li>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_wishlist">
+          Вам к нам, если вы хотите:
+        </h3>
+        <ul class="banner__list">
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Крутые насадки на глушитель;
+          </li>
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Управляемый выхлоп;
+          </li>
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Развести выхлоп;
+          </li>
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Получить потрясные классные трубы
+            <br />
+            (H, X, Y, даунпайп, паук);
+          </li>
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Вывести выхлоп наверх или под пороги;
+          </li>
 
-        <li class="banner__list-item banner__list-item_type_wishlist">
-          Изменить звуковые характеристики выхлопа.
-        </li>
-      </ul>
+          <li class="banner__list-item banner__list-item_type_wishlist">
+            Изменить звуковые характеристики выхлопа.
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="banner banner_type_moto">
-      <h3 class="banner__title banner__title_type_moto">Мото</h3>
-      <p class="banner__subtitle banner__subtitle_type_moto">
-        Хотите восстановить глушитель после падения?
-        <br />Надоели царапины и вмятины? Не нравится звук выхлопа?<br />Нужно
-        заменить звукопоглощающее наполнение? <br /><br />
-        Приезжайте на бесплатную диагностику, мы предложим вариант, который вас
-        точно устроит.
-      </p>
-      <div class="banner__item banner__item_type_moto">
-        <img src="./images/moto.png" class="banner__img" alt="услуги" />
-        <a href="/" class="banner__link">
-          <div class="banner__link-arrow banner__link-arrow_type_moto">
-            <img
-              class="banner__link-arrow-img"
-              alt="стрелка"
-              src="./images/arrow.svg"
-            />
-          </div>
-          <div>
-            <p class="banner__link-title banner__link-title_type_moto">Мото</p>
-          </div>
-        </a>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_moto">Мото</h3>
+        <p class="banner__subtitle banner__subtitle_type_moto">
+          Хотите восстановить глушитель после падения?
+          <br />Надоели царапины и вмятины? Не нравится звук выхлопа?<br />Нужно
+          заменить звукопоглощающее наполнение? <br /><br />
+          Приезжайте на бесплатную диагностику, мы предложим вариант, который
+          вас точно устроит.
+        </p>
+        <div class="banner__item banner__item_type_moto">
+          <img src="./images/moto.png" class="banner__img" alt="услуги" />
+          <a href="/" class="banner__link">
+            <div class="banner__link-arrow banner__link-arrow_type_moto">
+              <img
+                class="banner__link-arrow-img"
+                alt="стрелка"
+                src="./images/arrow.svg"
+              />
+            </div>
+            <div>
+              <p class="banner__link-title banner__link-title_type_moto">
+                Мото
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
     <section class="banner banner_type_advantages">
-      <h3 class="banner__title banner__title_type_advantages">
-        Почему именно мы?
-      </h3>
-      <p class="banner__subtitle banner__subtitle_type_advantages">
-        Вы получаете именно тот результат, который вам нужен,<br />без лишнего
-        головняка.
-      </p>
-      <ul class="banner__list">
-        <li class="banner__list-item banner__list-item_type_advantages">
-          <span class="banner__gold-text">Быстро</span><br />Большинство задач
-          решаем в день обращения.
-        </li>
-        <li class="banner__list-item banner__list-item_type_advantages">
-          <span class="banner__gold-text">Честно</span><br />Сумма
-          предварительного расчета всегда совпадает с окончательным счетом.
-        </li>
-        <li class="banner__list-item banner__list-item_type_advantages">
-          <span class="banner__gold-text">На совесть</span><br />Разберемся
-          именно в вашей проблеме и предложим оптимальное решение.
-        </li>
-        <li class="banner__list-item banner__list-item_type_advantages">
-          <span class="banner__gold-text">С первого раза</span><br />Нашу работу
-          не придется переделывать.
-        </li>
-        <li class="banner__list-item banner__list-item_type_advantages">
-          <span class="banner__gold-text">Опыт</span><br />Мы делали ремонт
-          глушителей, пожалуй, каждой существующей модели авто. А значит, знаем
-          все подводные камни, быстрее находим решение, не допускаем ошибок
-          новичков.
-        </li>
-      </ul>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_advantages">
+          Почему именно мы?
+        </h3>
+        <p class="banner__subtitle banner__subtitle_type_advantages">
+          Вы получаете именно тот результат, который вам нужен,<br />без лишнего
+          головняка.
+        </p>
+        <ul class="banner__list">
+          <li class="banner__list-item banner__list-item_type_advantages">
+            <span class="banner__gold-text">Быстро</span><br />Большинство задач
+            решаем в день обращения.
+          </li>
+          <li class="banner__list-item banner__list-item_type_advantages">
+            <span class="banner__gold-text">Честно</span><br />Сумма
+            предварительного расчета всегда совпадает с окончательным счетом.
+          </li>
+          <li class="banner__list-item banner__list-item_type_advantages">
+            <span class="banner__gold-text">На совесть</span><br />Разберемся
+            именно в вашей проблеме и предложим оптимальное решение.
+          </li>
+          <li class="banner__list-item banner__list-item_type_advantages">
+            <span class="banner__gold-text">С первого раза</span><br />Нашу
+            работу не придется переделывать.
+          </li>
+          <li class="banner__list-item banner__list-item_type_advantages">
+            <span class="banner__gold-text">Опыт</span><br />Мы делали ремонт
+            глушителей, пожалуй, каждой существующей модели авто. А значит,
+            знаем все подводные камни, быстрее находим решение, не допускаем
+            ошибок новичков.
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="banner banner_type_video">
-      <h3 class="banner__title banner__title_type_video">Нам доверяют:</h3>
-      <p class="banner__subtitle banner__subtitle_type_video">
-        Владельцы самых разных авто, отечественных и импортных, спортивных и
-        призванных к комфорту, быстрых и проходимых доверяют нам выхлопные
-        системы своих коней. И на нашем сайте мы используем только реальные фото
-        наших работ.
-      </p>
+      <div class="banner__content">
+        <h3 class="banner__title banner__title_type_video">Нам доверяют:</h3>
+        <p class="banner__subtitle banner__subtitle_type_video">
+          Владельцы самых разных авто, отечественных и импортных, спортивных и
+          призванных к комфорту, быстрых и проходимых доверяют нам выхлопные
+          системы своих коней. И на нашем сайте мы используем только реальные
+          фото наших работ.
+        </p>
 
-      <h3 class="banner__title banner__title_type_video">Блок мастерства</h3>
-      <p class="banner__subtitle banner__subtitle_type_video">
-        Наши мастера не просто сварщики, а настоящие творческие личности которые
-        любят свою работу и творят настоящие шедевры, достойные восхищения.
-        Одним из примеров такого творчества является мангал в виде паровоза.
-      </p>
-      <p class="banner__subtitle banner__subtitle_type_video">
-        У нас работают не просто сварщики. Это настоящие креативщики с руками,
-        для которых каждый новый проект – возможность сотворить новый шедевр. А
-        главное – у них это получается.
-        <br /><br />
-        Прекрасной иллюстрацией возможностей и навыков наших мастер служит
-        созданный ими мангал-паровоз.
-        <br /><br />
-        Вы все увидите сами на этом видео:
-      </p>
-      <iframe
-        class="banner__video"
-        src="https://www.youtube.com/embed/Rj6pJWK5zdc"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+        <h3 class="banner__title banner__title_type_video">Блок мастерства</h3>
+        <p class="banner__subtitle banner__subtitle_type_video">
+          Наши мастера не просто сварщики, а настоящие творческие личности
+          которые любят свою работу и творят настоящие шедевры, достойные
+          восхищения. Одним из примеров такого творчества является мангал в виде
+          паровоза.
+        </p>
+        <p class="banner__subtitle banner__subtitle_type_video">
+          У нас работают не просто сварщики. Это настоящие креативщики с руками,
+          для которых каждый новый проект – возможность сотворить новый шедевр.
+          А главное – у них это получается.
+          <br /><br />
+          Прекрасной иллюстрацией возможностей и навыков наших мастер служит
+          созданный ими мангал-паровоз.
+          <br /><br />
+          Вы все увидите сами на этом видео:
+        </p>
+        <iframe
+          class="banner__video"
+          src="https://www.youtube.com/embed/Rj6pJWK5zdc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
     <footer class="contacts">
-      <h3 class="contacts__title">Адреса</h3>
-      <iframe
-        class="contacts__map"
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3A586a00c0fef494fc67f591b34e3ea9d520597feab418e6260e706be623173dab&amp;source=constructor"
-        frameborder="0"
-      ></iframe>
-      <div class="contacts__container">
-        <div class="contacts__item">
-          <h2 class="contacts__item-label">
-            Санкт-Петербург, Московский район
-          </h2>
-          <a
-            class="contacts__link"
-            href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.339359%2C59.850465&amp;mode=search&amp;oid=230228099543&amp;ol=biz&amp;sll=30.315635%2C59.938951&amp;sspn=0.546570%2C0.199143&amp;text=%D0%BF%D1%80.%20%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%2032%2C%20%D0%BA%D0%BE%D1%80.%206&amp;z=17"
-            >ул.Гагарина 32, кор. 6</a
-          >
-          <a class="contacts__link" href="tel:+7(812)9226272"
-            >(812) 922 62 72</a
-          >
-          <p class="contacts__time">Ежедневно с 10:00 до 19:00</p>
-        </div>
-        <div class="contacts__item">
-          <h2 class="contacts__item-label">Колпино<br />ул.Финляндская 16</h2>
-          <a class="contacts__link" href="tel:+7(812)9226227"
-            >(812) 922 62 27</a
-          >
-          <p class="contacts__time">Ежедневно с 10:00 до 19:00</p>
-        </div>
-        <div class="contacts__item">
-          <h2 class="contacts__item-label">Социальные сети</h2>
-          <a class="contacts__link" href="https://vk.com/public166041639"
-            >Vkontakte</a
-          >
-          <a class="contacts__link" href="https://www.instagram.com/vyhlopgrad"
-            >Instagram</a
-          >
-          <a
-            class="contacts__link"
-            href="https://www.youtube.com/channel/UCD7Yq3uNiVSPiGbrUUKYMWQ"
-            >Youtube</a
-          >
+      <div class="contacts__content">
+        <h3 class="contacts__title">Адреса</h3>
+        <iframe
+          class="contacts__map"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A586a00c0fef494fc67f591b34e3ea9d520597feab418e6260e706be623173dab&amp;source=constructor"
+          frameborder="0"
+        ></iframe>
+        <div class="contacts__container">
+          <div class="contacts__item">
+            <h2 class="contacts__item-label">
+              Санкт-Петербург, Московский район
+            </h2>
+            <a
+              class="contacts__link"
+              href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.339359%2C59.850465&amp;mode=search&amp;oid=230228099543&amp;ol=biz&amp;sll=30.315635%2C59.938951&amp;sspn=0.546570%2C0.199143&amp;text=%D0%BF%D1%80.%20%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%2032%2C%20%D0%BA%D0%BE%D1%80.%206&amp;z=17"
+              >ул.Гагарина 32, кор. 6</a
+            >
+            <a class="contacts__link" href="tel:+7(812)9226272"
+              >(812) 922 62 72</a
+            >
+            <p class="contacts__time">Ежедневно с 10:00 до 19:00</p>
+          </div>
+          <div class="contacts__item">
+            <h2 class="contacts__item-label">Колпино<br />ул.Финляндская 16</h2>
+            <a class="contacts__link" href="tel:+7(812)9226227"
+              >(812) 922 62 27</a
+            >
+            <p class="contacts__time">Ежедневно с 10:00 до 19:00</p>
+          </div>
+          <div class="contacts__item">
+            <h2 class="contacts__item-label">Социальные сети</h2>
+            <a class="contacts__link" href="https://vk.com/public166041639"
+              >Vkontakte</a
+            >
+            <a
+              class="contacts__link"
+              href="https://www.instagram.com/vyhlopgrad"
+              >Instagram</a
+            >
+            <a
+              class="contacts__link"
+              href="https://www.youtube.com/channel/UCD7Yq3uNiVSPiGbrUUKYMWQ"
+              >Youtube</a
+            >
+          </div>
         </div>
       </div>
     </footer>

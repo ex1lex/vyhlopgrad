@@ -1,13 +1,16 @@
 .banner__item_type_moto {
-  width: 881px;
+  box-shadow: none;
+  max-width: 881px;
   height: 499px;
+  width: 100%;
+  min-width: 790px;
 }
 
 @media (max-width: 1024px) {
   .banner__item_type_moto {
-    width: 100%;
     max-width: 705px;
     max-height: 400px;
+    min-width: 250px;
   }
 }
 

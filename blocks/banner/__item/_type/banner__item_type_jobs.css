@@ -1,14 +1,16 @@
 .banner__item_type_jobs {
   box-shadow: none;
-  width: 891px;
+  max-width: 891px;
   height: 509px;
+  width: 100%;
+  min-width: 790px;
 }
 
 @media (max-width: 1024px) {
   .banner__item_type_jobs {
-    width: 100%;
     max-width: 713px;
     max-height: 407px;
+    min-width: 250px;
   }
 }
 

@@ -2,6 +2,10 @@
   display: none;
 }
 
+.menu__arrow:hover {
+  color: #ffd747;
+}
+
 @media (max-width: 992px) {
   .menu__arrow {
     outline: none;
@@ -11,7 +15,6 @@
     display: block;
     position: absolute;
     right: 25px;
-    top: calc((100% - 33px) / 2);
     top: 0;
     width: auto;
     height: 33px;

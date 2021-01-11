@@ -30,6 +30,7 @@
 @import url(../blocks/menu/__btn-close/_type/menu__btn-close_type_show.css);
 @import url(../blocks/menu/__arrow/menu__arrow.css);
 @import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__content/banner__content.css);
 @import url(../blocks/banner/_type/banner_type_advantages.css);
 @import url(../blocks/banner/_type/banner_type_jobs.css);
 @import url(../blocks/banner/_type/banner_type_moto.css);
@@ -76,6 +77,7 @@
 @import url(../blocks/banner/__img/banner__img.css);
 @import url(../blocks/banner/__gallery/banner__gallery.css);
 @import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__content/contacts__content.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
 @import url(../blocks/contacts/__container/contacts__container.css);

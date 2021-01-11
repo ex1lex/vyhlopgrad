@@ -1,0 +1,33 @@
+.menu__sub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 23px;
+  left: -22px;
+  display: none;
+  z-index: 5;
+  border: 1px solid #ffd747;
+  width: 230px;
+  background: rgba(0, 0, 0, 0.47);
+  background: radial-gradient(
+    72.89% 229.1% at 11.02% 66.27%,
+    rgba(31, 31, 29, 0.84) 0%,
+    rgba(31, 31, 29, 0.84) 76.27%
+  );
+}
+
+@media (max-width: 992px) {
+  .menu__sub-list {
+    top: 0;
+    left: 0;
+    position: relative;
+    display: none;
+    border: none;
+    background: none;
+    width: 100%;
+    z-index: 4;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+}

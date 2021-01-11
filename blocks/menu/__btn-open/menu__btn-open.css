@@ -1,0 +1,15 @@
+.menu__btn-open {
+  display: none;
+}
+
+@media (max-width: 993px) {
+  .menu__btn-open {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    display: block;
+    font-size: 25pt;
+    color: white;
+  }
+}

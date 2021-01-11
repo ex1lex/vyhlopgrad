@@ -11,10 +11,36 @@
         <a href="/">
           <img src="./images/logo.svg" alt="логотип" class="header__logo" />
         </a>
-        <nav>
-          <ul class="menu">
+        <nav class="menu">
+          <ul class="menu__container">
             <li class="menu__item">
               <a href="/" class="menu__link">Ремонт</a>
+              <button type="button" class="menu__arrow">&#9660;</button>
+              <ul class="menu__sub-list">
+                <li class="menu__item menu__item_type_sub">
+                  <a href="/" class="menu__link menu__link_type_sub"
+                    >Полная замена выхлопной системы</a
+                  >
+                </li>
+                <li class="menu__item menu__item_type_sub">
+                  <a href="/" class="menu__link menu__link_type_sub"
+                    >Ремонт резонатора</a
+                  >
+                </li>
+                <li class="menu__item menu__item_type_sub">
+                  <a href="/" class="menu__link menu__link_type_sub"
+                    >Ремонт основного глушителя</a
+                  >
+                </li>
+                <li class="menu__item menu__item_type_sub">
+                  <a href="/" class="menu__link menu__link_type_sub"
+                    >Ремонт и замена катализатора</a
+                  >
+                </li>
+                <li class="menu__item menu__item_type_sub">
+                  <a href="/" class="menu__link">Замена гофры</a>
+                </li>
+              </ul>
             </li>
             <li class="menu__item">
               <a href="/" class="menu__link">Тюнинг</a>
@@ -26,7 +52,15 @@
               <a href="/" class="menu__link">Контакты</a>
             </li>
           </ul>
+          <button type="button" class="menu__btn-close">
+            &#128940;
+            <i class="fa fa-times"></i>
+          </button>
         </nav>
+        <button type="button" class="menu__btn-open">
+          &#9776;
+          <i class="fa fa-bars"></i>
+        </button>
       </div>
       <div class="header__content">
         <img

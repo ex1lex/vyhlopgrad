@@ -1,0 +1,9 @@
+.menu__item {
+  position: relative;
+}
+
+@media (min-width: 993px) {
+  .menu__item:hover .menu__sub-list {
+    display: block;
+  }
+}

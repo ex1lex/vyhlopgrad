@@ -1,0 +1,15 @@
+.menu__item_type_sub {
+  padding: 4px 5px 10px 22px;
+  border-bottom: 1px solid#ffd747;
+}
+
+.menu__item_type_sub:last-of-type {
+  border-bottom: none;
+}
+
+@media (max-width: 992px) {
+  .menu__item_type_sub {
+    border: none;
+    padding: 0;
+  }
+}

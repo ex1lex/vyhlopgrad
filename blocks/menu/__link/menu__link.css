@@ -10,3 +10,12 @@
 .menu__link:hover {
   color: #ffd747;
 }
+
+@media (max-width: 992px) {
+  .menu__link {
+    line-height: 50px;
+    font-size: 33px;
+    font-weight: 400;
+    display: block;
+  }
+}

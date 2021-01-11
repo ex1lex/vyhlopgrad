@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  .menu__btn-close_type_show {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    z-index: 6;
+    position: fixed;
+    display: block;
+    top: 15px;
+    right: 25px;
+    font-size: 35pt;
+    color: white;
+  }
+}

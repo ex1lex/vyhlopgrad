@@ -1,4 +1,4 @@
-.header__logo_type_vertical {
+.header__logo {
   width: 228px;
   height: 157px;
   margin-bottom: 7px;
@@ -7,21 +7,21 @@
 }
 
 @media (max-width: 1024px) {
-  .header__logo_type_vertical {
+  .header__logo {
     width: 171px;
     height: 118px;
   }
 }
 
 @media (max-width: 768px) {
-  .header__logo_type_vertical {
+  .header__logo {
     width: 127px;
     height: 88px;
   }
 }
 
 @media (max-width: 425px) {
-  .header__logo_type_vertical {
+  .header__logo {
     width: 182px;
     height: 126px;
   }

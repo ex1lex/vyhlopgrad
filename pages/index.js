@@ -1,5 +1,5 @@
-const header = document.querySelector(".header__top-line");
-const logo = document.querySelector(".header__logo_type_vertical");
+const stuck = document.querySelector(".stuck");
+const logo = document.querySelector(".header__logo");
 const text = document.querySelector(".header__text");
 const menu = document.querySelector(".menu__container");
 const menuOpenBtn = document.querySelector(".menu__btn-open");
@@ -12,12 +12,16 @@ window.addEventListener("load", function (event) {
   logo.classList.add("header__logo_show");
 
   text.classList.add("header__text_show");
+
+  if (pageYOffset >= 800) {
+    stuck.classList.add("stuck_show");
+  }
 });
 
 function headerShow() {
   if (pageYOffset >= 800) {
-    header.classList.add("header__top-line_show");
-  } else header.classList.remove("header__top-line_show");
+    stuck.classList.add("stuck_show");
+  } else stuck.classList.remove("stuck_show");
 }
 window.addEventListener("scroll", headerShow);
 
@@ -45,4 +49,14 @@ arrowBtnList.forEach(function (btn) {
       btn.textContent = "▲";
     }
   });
+});
+
+$(".header__slider").slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: false,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 11500,
 });

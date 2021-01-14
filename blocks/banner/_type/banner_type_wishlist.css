@@ -1,22 +1,3 @@
 .banner_type_wishlist {
   background: #222220;
-  padding: 125px 54px 151px 142px;
-}
-
-@media (max-width: 1024px) {
-  .banner_type_wishlist {
-    padding: 99px 45px 106px 114px;
-  }
-}
-
-@media (max-width: 768px) {
-  .banner_type_wishlist {
-    padding: 71px 32px 85px 85px;
-  }
-}
-
-@media (max-width: 425px) {
-  .banner_type_wishlist {
-    padding: 48px 20px 69px 44px;
-  }
 }

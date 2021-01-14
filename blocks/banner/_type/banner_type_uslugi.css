@@ -1,22 +1,3 @@
 .banner_type_uslugi {
   background: #1c1c1b;
-  padding: 112px 141px 139px;
-}
-
-@media (max-width: 1024px) {
-  .banner_type_uslugi {
-    padding: 90px 113px 113px;
-  }
-}
-
-@media (max-width: 768px) {
-  .banner_type_uslugi {
-    padding: 57px 72px 65px 84px;
-  }
-}
-
-@media (max-width: 425px) {
-  .banner_type_uslugi {
-    padding: 33px 35px 62px;
-  }
 }

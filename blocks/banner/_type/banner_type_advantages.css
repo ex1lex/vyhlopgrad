@@ -1,22 +1,22 @@
 .banner_type_advantages {
   background: #1c1c1b;
-  padding: 80px 123px 79px 142px;
+  padding-top: 80px;
 }
 
 @media (max-width: 1024px) {
   .banner_type_advantages {
-    padding: 65px 88px 70px 112px;
+    padding-top: 65px;
   }
 }
 
 @media (max-width: 768px) {
   .banner_type_advantages {
-    padding: 30px 29px 50px 87px;
+    padding-top: 30px;
   }
 }
 
 @media (max-width: 425px) {
   .banner_type_advantages {
-    padding: 36px 10px 53px 36px;
+    padding-top: 36px;
   }
 }

@@ -1,22 +1,22 @@
 .banner_type_moto {
-  padding: 75px 257px 66px 142px;
+  padding-bottom: 66px;
   background: #1c1c1b;
 }
 
 @media (max-width: 1024px) {
   .banner_type_moto {
-    padding: 60px 205px 23px 114px;
+    padding-bottom: 23px;
   }
 }
 
 @media (max-width: 768px) {
   .banner_type_moto {
-    padding: 45px 115px 40px 84px;
+    padding-bottom: 40px;
   }
 }
 
 @media (max-width: 425px) {
   .banner_type_moto {
-    padding: 32px 36px 26px 36px;
+    padding-bottom: 26px;
   }
 }

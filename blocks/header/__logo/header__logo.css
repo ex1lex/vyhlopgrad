@@ -1,11 +1,28 @@
-.header__logo {
-  width: 225px;
-  height: 47px;
+.header__logo_type_vertical {
+  width: 228px;
+  height: 157px;
+  margin-bottom: 7px;
+  transform: scale(0);
+  transition: all 1s ease-in;
+}
+
+@media (max-width: 1024px) {
+  .header__logo_type_vertical {
+    width: 171px;
+    height: 118px;
+  }
 }
 
 @media (max-width: 768px) {
-  .header__logo {
-    width: 135px;
-    height: 27px;
+  .header__logo_type_vertical {
+    width: 127px;
+    height: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__logo_type_vertical {
+    width: 182px;
+    height: 126px;
   }
 }

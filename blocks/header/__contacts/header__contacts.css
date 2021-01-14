@@ -1,11 +1,18 @@
 .header__contacts {
   position: absolute;
   bottom: 41px;
-  max-width: 1200px;
-  padding: 0 123px;
+  box-sizing: border-box;
+  padding: 0px 100px;
+  width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 33px;
+}
+
+@media (min-width: 1281px) {
+  .header__contacts {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 1024px) {

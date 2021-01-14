@@ -1,0 +1,16 @@
+.header__container {
+  background: radial-gradient(
+    72.89% 229.1% at 11.02% 66.27%,
+    rgba(31, 31, 29, 0.84) 0%,
+    rgba(31, 31, 29, 0.84) 76.27%
+  );
+  position: relative;
+  z-index: 3;
+  height: 100%;
+}
+
+@media (min-width: 1281px) {
+  .header__container {
+    padding: 0 141px;
+  }
+}

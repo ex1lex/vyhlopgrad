@@ -1,6 +1,24 @@
 .menu__item_type_sub {
   padding: 4px 5px 10px 22px;
   border-bottom: 1px solid#ffd747;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    black 50%,
+    black
+  );
+  background-position: 100% 0px;
+  background-size: 200% 100%;
+  transition: all 0.2s ease-in;
+}
+
+.menu__item_type_sub:hover .menu__link {
+  color: #ffd747;
+}
+
+.menu__item_type_sub:hover {
+  background-position: 0 0;
 }
 
 .menu__item_type_sub:last-of-type {

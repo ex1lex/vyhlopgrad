@@ -51,12 +51,19 @@ arrowBtnList.forEach(function (btn) {
   });
 });
 
-$(".header__slider").slick({
+let slider = $(".header__slider").slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: false,
   arrows: false,
   autoplay: true,
-  autoplaySpeed: 11500,
+  autoplaySpeed: 2500,
+  fade: true,
+  speed: 500,
+  cssEase: "linear",
+});
+
+slider.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
+  $(".header__slider").slick("slickPause");
 });

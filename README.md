@@ -1,6 +1,6 @@
 # vyhlopgrad
 
-Вёрстка для сайта https://vyhlopgrad.ru/
+Вёрстка для сайта ВЫХЛОПГРАД
 
 **Figma**
 
@@ -9,3 +9,7 @@
 **Preview**
 
 - [Ссылка на GitHub Pages](https://ex1lex.github.io/vyhlopgrad)
+
+**Действующий сайт**
+
+- [Ссылка на сайт ВЫХЛОПГРАД](https://vyhlopgrad.ru/)

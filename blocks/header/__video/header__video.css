@@ -1,5 +1,5 @@
 .header__video {
-  height: 722px;
+  height: 100%;
 }
 
 @media (min-width: 1280px) {
@@ -11,19 +11,18 @@
 
 @media (max-width: 1024px) {
   .header__video {
-    max-height: 549px;
-    height: 549px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 768px) {
   .header__video {
-    max-height: 433px;
+    margin-left: -25%;
   }
 }
 
 @media (max-width: 425px) {
   .header__video {
-    max-height: 400px;
+    margin-left: -100%;
   }
 }

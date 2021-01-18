@@ -5,21 +5,22 @@
   box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 117px 123px 41px;
+  padding: 117px 123px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1281px) {
   .header__content {
-    padding: 90px 0px 30px;
+    padding: 90px 0px 90px;
   }
 }
 
 @media (max-width: 1024px) {
   .header__content {
-    padding: 90px 81px 30px;
+    padding: 90px 81px 70px;
   }
 }
 
